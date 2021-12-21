@@ -22,10 +22,7 @@
             "main": "client/src/main.ts",
             "polyfills": "client/src/polyfills.ts",
             "tsConfig": "client/tsconfig.app.json",
-            "assets": [
-              "client/src/favicon.ico",
-              "client/src/assets"
-            ],
+            "assets": ["client/src/favicon.ico", "client/src/assets"],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "client/src/styles.css"
@@ -95,10 +92,7 @@
             "polyfills": "client/src/polyfills.ts",
             "tsConfig": "client/tsconfig.spec.json",
             "karmaConfig": "client/karma.conf.js",
-            "assets": [
-              "client/src/favicon.ico",
-              "client/src/assets"
-            ],
+            "assets": ["client/src/favicon.ico", "client/src/assets"],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
               "client/src/styles.css"
@@ -109,10 +103,7 @@
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
-            "lintFilePatterns": [
-              "client/src/**/*.ts",
-              "client/src/**/*.html"
-            ]
+            "lintFilePatterns": ["client/src/**/*.ts", "client/src/**/*.html"]
           }
         }
       }
