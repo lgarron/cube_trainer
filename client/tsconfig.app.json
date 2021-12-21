@@ -7,6 +7,10 @@
     "typeRoots": [
       "node_modules/@types"
     ],
+    "paths": {
+      "crypto": ["./stub.js"],
+      "worker_threads": ["./stub.js"]
+    }
   },
   "files": [
     "src/main.ts",
