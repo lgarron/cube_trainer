@@ -26,10 +26,16 @@
     "noImplicitAny": true,
     "noUnusedLocals": true,
     "noImplicitThis": true,
-    "noImplicitReturns": true
+    "noImplicitReturns": true,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
   },
-  "exclude": [  
-    "node_modules",  
+  "include": [
+    "node_modules/@types",
+  ],
+  "exclude": [
+    "node_modules",
   ],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
